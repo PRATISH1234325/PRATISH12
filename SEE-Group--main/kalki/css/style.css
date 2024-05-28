@@ -1,0 +1,311 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container{
+  width: 1260px;
+  margin: 0px auto;
+}
+
+ul{
+  list-style: none;
+}
+
+ul li{
+  display: inline-block;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+
+/* header css  */
+
+header .top-header{
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 5px 0px;
+  font-size: 14px;
+}
+header .top-header i{
+  padding-right: 10px;
+}
+header .middle-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px;
+}
+.middle-header ul li{
+  margin-right: 20px;
+}
+.middle-header .search{
+  display: flex;
+  gap: 100px;
+}
+.middle-header .search form {
+display: flex;
+}
+.middle-header .search form input{
+  padding: 7px 10px;
+  border: 1px solid black;
+  background-color: gainsboro;
+  border-radius: 5px 0px 0px 5px;
+}
+.middle-header .search button{
+  background-color: black;
+  color: white;
+  padding: 5px;
+  border: none;
+  border-radius: 0px 5px 5px 0px;
+}
+.middle-header .icons {
+display: flex;
+gap: 15px;
+}
+.middle-header .icons i{
+  font-size: 26px;
+  color: black;
+}
+.middle-header .icons .wishlist{
+  position: relative;
+}
+.icons .wishlist span{
+  background-color: red;
+  color: white;
+  padding: 6px 8px;
+  border-radius: 50%;
+  position: absolute;
+  font-size: 12px;
+  top: -16px;
+  right: -16px;
+}
+.bottom-header{
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+}
+.bottom-header ul li{
+  margin-right: 8px;
+  font-size: 14px;
+  padding: 10px 0px;
+}
+.bottom-header ul li:hover{
+color: red;
+border-bottom: 1px solid red;
+}
+.image
+{
+display: flex;
+justify-content: space-between;
+padding: 25px;
+}
+.image img {
+height: 400px;
+width: 300px;
+padding: 10px 10px;
+}
+
+.owl-carousel{
+padding: 10px;
+}
+.ico {
+display: flex;
+justify-content: space-evenly;
+text-align: center;
+}
+.ico a{
+padding: 10px 0px;
+color: black;
+font-size: 14px;
+}
+.ico i{
+display: block;
+font-size: 30px;
+color: black;
+padding: 10px 0px;
+}
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 100px;
+color: black;
+background-color: gray;
+position: absolute;
+top: 40%;
+}
+.owl-nav button span{
+
+color: black;
+background-color: none;
+font-size: 60px;
+
+}
+.owl-nav button.owl-prev{
+left: 50px;}
+
+
+.owl-nav button.owl-next{
+right: 30px;
+
+}
+.banner-section-slider .owl-dots button span{
+display: block;
+height: 10px;
+width: 10px;
+background-color: red;
+margin: 5px;
+border-radius: 50%;
+
+}
+.banner-section-slider .owl-dots .active span{
+background-color: green;
+}
+.banner-section-slider .owl-dots{
+
+  display: flex;
+  justify-content: center;
+
+}
+
+.banner-section-slider .owl-dots button span{
+  display: block;
+  height: 10px;
+  width: 10px;
+  background-color: red;
+  margin: 5px;
+  border-radius: 50%;
+  
+}
+.banner-section-slider .owl-dots .active span{
+  background-color: green;
+}
+.banner-section-slider .owl-dots{
+  
+    display: flex;
+    justify-content: center;
+
+}
+.grid-item {
+  position: relative;
+  overflow: hidden;
+  background-color: gray;
+}
+
+.grid-item img {
+  
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.grid-box{
+  border: 1px solid #fff6f2;
+  background-color: #fff6f2;
+  padding: 28px;
+
+}
+.image .img1 {
+  position: relative;
+
+}
+.txt1 {
+  position: absolute;
+  bottom: 50px;
+  left: 35px;
+  font-size: 50px;
+
+}
+.txt1 a{
+  display: block;
+  width: fit-content;
+  background-color: white;
+  border-radius: 5px;
+  justify-content: center;
+  margin: 0px auto;
+}
+.txt1 h1{
+  font-size: 30px;
+ 
+  color: white;
+}
+.txt1 a h2{
+  font-size: 20px;
+  padding: 8px;  
+  margin-left: 10px;
+
+  color: black;
+}
+.txt1 a h2:hover{
+  text-decoration: underline;
+  border-bottom: black;
+}
+.shop .code{
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+}
+.code .img1{
+  position: relative;
+
+}
+.code .txt1 {
+  position: absolute;
+  bottom: 50px;
+  left: 35px;
+  font-size: 50px;
+
+}
+.code .txt1 a{
+  display: block;
+  width: fit-content;
+  background-color: white;
+  border-radius: 5px;
+  justify-content: center;
+  margin: 0px auto;
+}
+.code .txt1 h1{
+  font-size: 30px;
+ 
+  color: white;
+}
+.code .txt1 a h2{
+  font-size: 20px;
+  padding: 8px;  
+  margin-left: 10px;
+
+  color: black;
+}
+.code .txt1 a h2:hover{
+  text-decoration: underline;
+  border-bottom: black;
+}
+.video-shoping{
+  margin-top: 50px;
+  padding: 50px 0px;
+  background-image: url(../image/video-shopping-banner16-8-2023.avif);
+  color: white;
+  text-align: center;
+}
+.video-shoping h3{
+  font-size: 14px;
+  padding: 10px;
+}
+.video-shoping .form{
+  padding: 30px 0px;
+  border-radius: 5px;
+}
+.video-shoping .form #number{
+  padding: 10px 5px;
+
+}
+.video-shoping .form button{
+  padding: 10px 5px;
+  margin-left: 20px;
+  
+}
+
